@@ -1,0 +1,45 @@
+.carousel-container{
+    // display: inline-block;
+    margin: 0 auto;
+    width: 80%;
+  
+}
+// .carousel{
+//     height: 100%!important;
+
+// }
+// .carousel div:first-child{
+//     height: 100%!important;
+// }
+.carousel-item{
+    // width: 100px;
+    // height: 70px;
+    // border: 1px solid black;
+    // margin:10px 10px;
+    width: 80%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.carousel-item-one{
+    // background-image: url('./../../assets/electric1.jpg');
+    // background-position: bottom;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    
+}
+.carousel-item-two{
+    background-color: red;
+}
+.carousel-item-three{
+    background-color: yellow;
+}
+.carousel-item-four{
+    background-color: green;
+}
+.abc{
+    width: 80%;
+    background-color: violet;
+    height: 300px;
+    margin:-100px auto 0 auto;
+}
