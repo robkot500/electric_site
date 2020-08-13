@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/electric_site/static/css/main.0584b685.chunk.css",
+    "main.js": "/electric_site/static/js/main.903930e2.chunk.js",
+    "main.js.map": "/electric_site/static/js/main.903930e2.chunk.js.map",
+    "runtime-main.js": "/electric_site/static/js/runtime-main.67f05231.js",
+    "runtime-main.js.map": "/electric_site/static/js/runtime-main.67f05231.js.map",
+    "static/js/2.26f6cc70.chunk.js": "/electric_site/static/js/2.26f6cc70.chunk.js",
+    "static/js/2.26f6cc70.chunk.js.map": "/electric_site/static/js/2.26f6cc70.chunk.js.map",
+    "index.html": "/electric_site/index.html",
+    "precache-manifest.71ca002764216a56860332792d84de39.js": "/electric_site/precache-manifest.71ca002764216a56860332792d84de39.js",
+    "service-worker.js": "/electric_site/service-worker.js",
+    "static/css/main.0584b685.chunk.css.map": "/electric_site/static/css/main.0584b685.chunk.css.map",
+    "static/js/2.26f6cc70.chunk.js.LICENSE.txt": "/electric_site/static/js/2.26f6cc70.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67f05231.js",
+    "static/js/2.26f6cc70.chunk.js",
+    "static/css/main.0584b685.chunk.css",
+    "static/js/main.903930e2.chunk.js"
+  ]
+}
