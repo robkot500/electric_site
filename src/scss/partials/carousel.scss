@@ -17,8 +17,12 @@
     // border: 1px solid black;
     // margin:10px 10px;
     width: 80%;
-    height: 90vh;
+    height: 85vh;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 .carousel-item-one{
@@ -26,20 +30,134 @@
     // background-position: bottom;
     // background-size: cover;
     // background-repeat: no-repeat;
+    // display: block;
     
 }
-.carousel-item-two{
-    background-color: red;
-}
-.carousel-item-three{
-    background-color: yellow;
-}
-.carousel-item-four{
-    background-color: green;
-}
+.carousel-item-one::after {
+    content: "";
+    background-image: url('./../../assets/electric7.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+  .carousel-item-two::after {
+    content: "";
+    background-image: url('./../../assets/electric2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }.carousel-item-three::after {
+    content: "";
+    background-image: url('./../../assets/electric3.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }.carousel-item-four::after {
+    content: "";
+    background-image: url('./../../assets/electric5.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+// .carousel-item-two{
+//     background-image: url('./../../assets/electric2.jpg');
+//     background-position: bottom;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+// .carousel-item-three{
+//     background-image: url('./../../assets/electric3.jpg');
+//     background-position: bottom;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+// .carousel-item-four{
+//     background-image: url('./../../assets/electric5.jpg');
+//     background-position: bottom;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
 .abc{
     width: 80%;
-    background-color: violet;
+    background-color: white;
     height: 300px;
-    margin:-100px auto 0 auto;
+    margin:-150px auto 0 auto;
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.fa-angle-right,
+.fa-angle-left{
+    font-size: 50px;
+    color: orange;
+}
+.arrow-wrapper{
+    background-color:$black;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+.item-wrapper{
+    width: 70%;
+    height: 60%;
+    // border: 1px solid black;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.item{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-up{
+    background-color:$main-color;
+    color: black;
+    font-size: 25px;
+    
+}
+.item-down{
+    background-color:$black;
+    color: orange;
+    width: 410px;
+    height: 100px;
+    font-size: 20px;
+    padding: 0 14px 0 14px;
 }

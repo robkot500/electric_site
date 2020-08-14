@@ -1,8 +1,10 @@
 @import './partials/reset';
 @import './partials/variables';
 @import './partials/carousel.scss';
+@import './partials/nav';
 
 .container{
     width: 100vw;
-    
+    font-family: $font;
+    color: $black;
 }

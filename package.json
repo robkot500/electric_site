@@ -16,7 +16,7 @@
     "react-swipe": "^6.0.4",
     "swipe-js-iso": "^2.1.5"
   },
-  "homepage": "https://robkot500.github.io/electric_site/.",
+  "homepage": "https://robkot500.github.io/electric_site/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
