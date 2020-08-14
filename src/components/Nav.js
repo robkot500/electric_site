@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
 
 function Nav() {
     return (
         <div className='nav-container'>
-            <div className='logo'></div>
+
             <nav>
                 <ul>
                     <li>STRONA GŁÓWNA</li>
