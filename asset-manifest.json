@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/electric_site/static/css/main.7d117592.chunk.css",
+    "main.css": "/electric_site/static/css/main.6b005e69.chunk.css",
     "main.js": "/electric_site/static/js/main.484e94c0.chunk.js",
     "main.js.map": "/electric_site/static/js/main.484e94c0.chunk.js.map",
     "runtime-main.js": "/electric_site/static/js/runtime-main.67f05231.js",
@@ -8,16 +8,16 @@
     "static/js/2.6bd148d2.chunk.js": "/electric_site/static/js/2.6bd148d2.chunk.js",
     "static/js/2.6bd148d2.chunk.js.map": "/electric_site/static/js/2.6bd148d2.chunk.js.map",
     "index.html": "/electric_site/index.html",
-    "precache-manifest.37027ee1dacc594a454ecfa6b67d91db.js": "/electric_site/precache-manifest.37027ee1dacc594a454ecfa6b67d91db.js",
+    "precache-manifest.960dfb395e80dda1e94b3e8f83716538.js": "/electric_site/precache-manifest.960dfb395e80dda1e94b3e8f83716538.js",
     "service-worker.js": "/electric_site/service-worker.js",
-    "static/css/main.7d117592.chunk.css.map": "/electric_site/static/css/main.7d117592.chunk.css.map",
+    "static/css/main.6b005e69.chunk.css.map": "/electric_site/static/css/main.6b005e69.chunk.css.map",
     "static/js/2.6bd148d2.chunk.js.LICENSE.txt": "/electric_site/static/js/2.6bd148d2.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/electric_site/static/media/tomek.2e0a2f59.png"
   },
   "entrypoints": [
     "static/js/runtime-main.67f05231.js",
     "static/js/2.6bd148d2.chunk.js",
-    "static/css/main.7d117592.chunk.css",
+    "static/css/main.6b005e69.chunk.css",
     "static/js/main.484e94c0.chunk.js"
   ]
 }
