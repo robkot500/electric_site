@@ -1,22 +1,9 @@
 .carousel-container{
-    // display: inline-block;
     margin: 0 auto;
-    width: 80%;
-  
+    width: 100%;
 }
-// .carousel{
-//     height: 100%!important;
-
-// }
-// .carousel div:first-child{
-//     height: 100%!important;
-// }
 .carousel-item{
-    // width: 100px;
-    // height: 70px;
-    // border: 1px solid black;
-    // margin:10px 10px;
-    width: 80%;
+    width: 100vw;
     height: 85vh;
     overflow: hidden;
     display: flex;
@@ -50,7 +37,7 @@
   .carousel-item-two::after {
     content: "";
     background-image: url('./../../assets/electric2.jpg');
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -119,19 +106,7 @@
 //     background-size: cover;
 //     background-repeat: no-repeat;
 // }
-.abc{
-    width: 80%;
-    background-color: white;
-    height: 300px;
-    margin:0 auto 0 auto;
-    position: relative;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 40px;
-    text-align: center;
-    line-height: 40px;
-    opacity: 0.2;
-}
+
 .fa-angle-right,
 .fa-angle-left{
     font-size: 50px;
@@ -156,31 +131,54 @@
     flex-direction: column;
 }
 .item{
-    width: 300px;
-    height: 60px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .item-up{
+    width: 350px;
+    height: 50px;
     background-color:$main-color;
     color: black;
     font-size: 25px;
-    margin-top: -300px;
+    margin-top: -200px;
     opacity: 0.2;
 }
 .item-down{
     background-color:$black;
     color: orange;
-    width: 410px;
+    width: 470px;
     height: 100px;
     font-size: 20px;
     padding: 0 14px 0 14px;
     margin-bottom: -300px;
     opacity: 0.2;
+    z-index: 1;
+    // position: relative;
 }
-// .item-buttons{
-//     width: 410px;
-//     height: 100px;
-//     border: 1px solid black;
-// }
+.item-buttons{
+    width: 250px;
+    height: 40px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.2;
+}
+.button-left,
+.button-right{
+    width: 100px;
+    height: 40px;
+    background-color: $main-color;
+    z-index: 10;
+    font-size: 20px;
+    color: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-right{
+    background-color: $black;
+    color:$main-color
+}
+

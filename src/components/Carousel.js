@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactSwipe from 'react-swipe';
 import { motion } from 'framer-motion';
-import Slide from './Slide'
+// import Slide from './Slide'
 
 const Carousel = () => {
     let reactSwipeEl;
@@ -39,9 +39,12 @@ const Carousel = () => {
             <div className={`carousel-item carousel-item-${item.number}`}>
                 <div onClick={() => reactSwipeEl.prev()} className='arrow-wrapper'><i class="fas fa-angle-left"></i></div>
                 < div className='item-wrapper' >
-                    <motion.div animate={{ y: 200, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-up'>{item.textUp}</motion.div>
-                    <motion.div animate={{ y: -210, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-down'>{item.textDown}</motion.div>
-                    {/* <div class="item-buttons"></div> */}
+                    <motion.div animate={{ y: 120, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-up'>{item.textUp}</motion.div>
+                    <motion.div animate={{ y: -200, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-down'>{item.textDown}</motion.div>
+                    <motion.div animate={{ y: 105, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} class="item-buttons">
+                        <div class="button-left">Oferta</div>
+                        <div class="button-right">Wycena</div>
+                    </motion.div>
                 </div >
                 <div onClick={() => reactSwipeEl.next()} className='arrow-wrapper'><i class="fas fa-angle-right"></i></div>
             </div >
@@ -59,7 +62,6 @@ const Carousel = () => {
             >
                 {items}
             </ReactSwipe>
-            <motion.div animate={{ y: -150, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='abc'>Profesjonalne usługi elektryczne w Rybniku i okolicach. Zaufaj wiedzy i doświadczeniu.</motion.div>
 
         </div>
     );

@@ -2,9 +2,11 @@
 @import './partials/variables';
 @import './partials/carousel.scss';
 @import './partials/nav';
+@import './partials/main';
 
 .container{
-    width: 100vw;
+    width: 100%;
     font-family: $font;
     color: $black;
+    
 }

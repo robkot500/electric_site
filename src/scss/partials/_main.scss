@@ -1,0 +1,55 @@
+.main{
+    width: 80%;
+    margin: 0 auto;
+    .main-slogan{
+        width: 100%;
+        height: 160px;
+        background-color: white;
+        margin:0 auto 0 auto;
+        position: relative;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 40px;
+        text-align: center;
+        line-height: 40px;
+        opacity: 0.2;
+    }
+    .main-item-wrapper{
+        width: 100%;
+        height: 300px;
+        // border: 1px solid black;
+        display: flex;
+        padding: 40px;
+        
+    }
+    .main-item{
+        width: 25%;
+        height: 100%;
+        padding: 40px;
+        // border: 1px solid black;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 40px;
+        color: $black;
+    }
+    .icon-wrapper{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        font-size: 50px;
+        background-color:$main-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-item-slogan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+}
