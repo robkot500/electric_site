@@ -110,7 +110,7 @@
 .fa-angle-right,
 .fa-angle-left{
     font-size: 50px;
-    color: orange;
+    color: $font-color-light;
 }
 .arrow-wrapper{
     background-color:$black;
@@ -140,14 +140,14 @@
     width: 350px;
     height: 50px;
     background-color:$main-color;
-    color: black;
+    color: $font-color-light;
     font-size: 25px;
     margin-top: -200px;
     opacity: 0.2;
 }
 .item-down{
     background-color:$black;
-    color: orange;
+    color: $font-color-light;
     width: 470px;
     height: 100px;
     font-size: 20px;
@@ -172,13 +172,13 @@
     background-color: $main-color;
     z-index: 10;
     font-size: 20px;
-    color: $black;
+    color: $font-color-light;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .button-right{
     background-color: $black;
-    color:$main-color
+    color:$font-color-light
 }
 

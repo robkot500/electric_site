@@ -34,13 +34,14 @@
         justify-content: center;
         font-weight: bold;
         // border-radius: 10px;
+        color: $font-color-light
     }
     // li:first-child{
     //     background-color: orange;
     // }
     li:hover{
         background-color: $black;
-        color: $main-color;
+        // color: $font-color-light;
     }
     // li:nth-child(1):hover{
     //     background-color:$black;

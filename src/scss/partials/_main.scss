@@ -33,7 +33,7 @@
         justify-content: center;
         flex-direction: column;
         padding-top: 40px;
-        color: $black;
+        color: $font-color-light
     }
     .icon-wrapper{
         width: 80px;
@@ -51,5 +51,6 @@
         align-items: center;
         text-align: center;
         margin-top: 25px;
+        color: $black;
     }
 }

@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 function Nav() {
     return (
         <div className='nav-container'>
-            <motion.div animate={{ height: 40, x: 150, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='logo'>
-            </motion.div>
+            {/* <motion.div animate={{ height: 40, x: 150, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='logo'>
+            </motion.div> */}
             <nav>
                 <ul>
                     <li>STRONA GŁÓWNA</li>
