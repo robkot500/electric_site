@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 // import Slide from './Slide'
 
 const Carousel = () => {
+
     let reactSwipeEl;
     const slides = [
         {
