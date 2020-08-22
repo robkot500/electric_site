@@ -1,185 +1,158 @@
 .carousel-container{
     margin: 0 auto;
     width: 100%;
-}
-.carousel-item{
-    width: 100vw;
-    // height: 85vh;
-    height: 580px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.carousel-item-one{
-    // background-image: url('./../../assets/electric1.jpg');
-    // background-position: bottom;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // display: block;
+    .carousel-item{
+        width: 100vw;
+        height: 580px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .carousel-item-one::after {
+        content: "";
+        background-image: url('./../../assets/electric7.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+      .carousel-item-two::after {
+        content: "";
+        background-image: url('./../../assets/electric2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+      .carousel-item-three::after {
+        content: "";
+        background-image: url('./../../assets/electric3.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+      .carousel-item-four::after {
+        content: "";
+        background-image: url('./../../assets/electric5.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+      .carousel-item-five::after {
+        content: "";
+        background-image: url('./../../assets/electric8.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+    .fa-angle-right,
+    .fa-angle-left{
+        font-size: 50px;
+        color: $font-color-light;
+    }
+    .arrow-wrapper{
+        background-color:$black;
+        text-align: center;
+        width: 55px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .item-wrapper{
+        width: 70%;
+        height: 60%;
+        font-size: 50px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .item{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-up{
+        width: 350px;
+        height: 50px;
+        background-color:$main-color;
+        color: $font-color-light;
+        font-size: 25px;
+        margin-top: -200px;
+        opacity: 0.2;
+    }
+    .item-down{
+        background-color:$black;
+        color: $font-color-light;
+        width: 470px;
+        height: 100px;
+        font-size: 20px;
+        padding: 0 14px 0 14px;
+        margin-bottom: -300px;
+        opacity: 0.2;
+        z-index: 1;
+        // position: relative;
+    }
+    .item-buttons{
+        width: 250px;
+        height: 40px;
+        margin-top: -300px;
+        display: flex;
+        justify-content: space-between;
+        opacity: 0.2;
+    }
+    .button-left,
+    .button-right{
+        width: 100px;
+        height: 40px;
+        background-color: $main-color;
+        z-index: 10;
+        font-size: 20px;
+        color: $font-color-light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-right{
+        background-color: $black;
+        color:$font-color-light
+    }
+    
     
 }
-.carousel-item-one::after {
-    content: "";
-    background-image: url('./../../assets/electric7.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
-  .carousel-item-two::after {
-    content: "";
-    background-image: url('./../../assets/electric2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }.carousel-item-three::after {
-    content: "";
-    background-image: url('./../../assets/electric3.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }.carousel-item-four::after {
-    content: "";
-    background-image: url('./../../assets/electric5.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
-  .carousel-item-five::after {
-    content: "";
-    background-image: url('./../../assets/electric8.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
-// .carousel-item-two{
-//     background-image: url('./../../assets/electric2.jpg');
-//     background-position: bottom;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// }
-// .carousel-item-three{
-//     background-image: url('./../../assets/electric3.jpg');
-//     background-position: bottom;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// }
-// .carousel-item-four{
-//     background-image: url('./../../assets/electric5.jpg');
-//     background-position: bottom;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// }
-
-.fa-angle-right,
-.fa-angle-left{
-    font-size: 50px;
-    color: $font-color-light;
-}
-.arrow-wrapper{
-    background-color:$black;
-    text-align: center;
-    width: 55px;
-    height: 55px;
-    cursor: pointer;
-}
-.item-wrapper{
-    width: 70%;
-    height: 60%;
-    // border: 1px solid black;
-    font-size: 50px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-direction: column;
-}
-.item{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item-up{
-    width: 350px;
-    height: 50px;
-    background-color:$main-color;
-    color: $font-color-light;
-    font-size: 25px;
-    margin-top: -200px;
-    opacity: 0.2;
-}
-.item-down{
-    background-color:$black;
-    color: $font-color-light;
-    width: 470px;
-    height: 100px;
-    font-size: 20px;
-    padding: 0 14px 0 14px;
-    margin-bottom: -300px;
-    opacity: 0.2;
-    z-index: 1;
-    // position: relative;
-}
-.item-buttons{
-    width: 250px;
-    height: 40px;
-    margin-top: -300px;
-    display: flex;
-    justify-content: space-between;
-    opacity: 0.2;
-}
-.button-left,
-.button-right{
-    width: 100px;
-    height: 40px;
-    background-color: $main-color;
-    z-index: 10;
-    font-size: 20px;
-    color: $font-color-light;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.button-right{
-    background-color: $black;
-    color:$font-color-light
-}
-
