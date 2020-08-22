@@ -10,75 +10,20 @@
         align-items: center;
         position: relative;
     }
+    .carousel-item-two::after {
+        @include carousel(2,center); 
+      }
+    .carousel-item-three::after {
+        @include carousel(3,bottom); 
+      }
+    .carousel-item-four::after {
+        @include carousel(5,bottom);  
+      }
     .carousel-item-one::after {
-        content: "";
-        background-image: url('./../../assets/electric7.jpg');
-        background-position: bottom;
-        background-size: cover;
-        background-repeat: no-repeat;
-        opacity: 0.7;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;   
+        @include carousel(7,bottom); 
       }
-      .carousel-item-two::after {
-        content: "";
-        background-image: url('./../../assets/electric2.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        opacity: 0.7;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;   
-      }
-      .carousel-item-three::after {
-        content: "";
-        background-image: url('./../../assets/electric3.jpg');
-        background-position: bottom;
-        background-size: cover;
-        background-repeat: no-repeat;
-        opacity: 0.7;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;   
-      }
-      .carousel-item-four::after {
-        content: "";
-        background-image: url('./../../assets/electric5.jpg');
-        background-position: bottom;
-        background-size: cover;
-        background-repeat: no-repeat;
-        opacity: 0.7;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;   
-      }
-      .carousel-item-five::after {
-        content: "";
-        background-image: url('./../../assets/electric8.jpg');
-        background-position: bottom;
-        background-size: cover;
-        background-repeat: no-repeat;
-        opacity: 0.7;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;   
+    .carousel-item-five::after {
+        @include carousel(8,bottom);  
       }
     .fa-angle-right,
     .fa-angle-left{

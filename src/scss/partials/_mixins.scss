@@ -12,3 +12,22 @@
     position: absolute;
     z-index: -1;   
 }
+@mixin hamburger {
+    .ham-wrapper {
+      display: block;
+      cursor: pointer;
+      margin-right: 30px;
+    }
+    .ham{
+      position: absolute;
+      right: 20px;
+      top: 33px;
+    }
+    .ham1, .ham2, .ham3 {
+      width: 30px;
+      height: 4px;
+      background-color: $white;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+}

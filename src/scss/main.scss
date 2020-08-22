@@ -1,10 +1,11 @@
 @import './partials/reset';
 @import './partials/variables';
+@import './partials/mixins';
 @import './partials/carousel.scss';
 @import './partials/nav';
 @import './partials/main';
 @import './partials/media';
-@import './partials/mixins';
+
 
 .container{
     width: 100%;
