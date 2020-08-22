@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/electric_site/static/css/main.0e8f24ea.chunk.css",
-    "main.js": "/electric_site/static/js/main.61bfe4eb.chunk.js",
-    "main.js.map": "/electric_site/static/js/main.61bfe4eb.chunk.js.map",
+    "main.css": "/electric_site/static/css/main.25bcc040.chunk.css",
+    "main.js": "/electric_site/static/js/main.8b1f6395.chunk.js",
+    "main.js.map": "/electric_site/static/js/main.8b1f6395.chunk.js.map",
     "runtime-main.js": "/electric_site/static/js/runtime-main.67f05231.js",
     "runtime-main.js.map": "/electric_site/static/js/runtime-main.67f05231.js.map",
     "static/js/2.b6e95663.chunk.js": "/electric_site/static/js/2.b6e95663.chunk.js",
     "static/js/2.b6e95663.chunk.js.map": "/electric_site/static/js/2.b6e95663.chunk.js.map",
     "index.html": "/electric_site/index.html",
-    "precache-manifest.826a75f4a77c732419a31bfb553f7271.js": "/electric_site/precache-manifest.826a75f4a77c732419a31bfb553f7271.js",
+    "precache-manifest.ad320be63ba1af8386b905cea39c0447.js": "/electric_site/precache-manifest.ad320be63ba1af8386b905cea39c0447.js",
     "service-worker.js": "/electric_site/service-worker.js",
-    "static/css/main.0e8f24ea.chunk.css.map": "/electric_site/static/css/main.0e8f24ea.chunk.css.map",
+    "static/css/main.25bcc040.chunk.css.map": "/electric_site/static/css/main.25bcc040.chunk.css.map",
     "static/js/2.b6e95663.chunk.js.LICENSE.txt": "/electric_site/static/js/2.b6e95663.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/electric_site/static/media/impuls.d268db76.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.67f05231.js",
     "static/js/2.b6e95663.chunk.js",
-    "static/css/main.0e8f24ea.chunk.css",
-    "static/js/main.61bfe4eb.chunk.js"
+    "static/css/main.25bcc040.chunk.css",
+    "static/js/main.8b1f6395.chunk.js"
   ]
 }
