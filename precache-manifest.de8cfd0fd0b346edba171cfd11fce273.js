@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abfad190ffa4400c7c5b76c7db97fc08",
+    "revision": "9ac39c27edf514c649e276fbf95b2454",
     "url": "/electric_site/index.html"
   },
   {
-    "revision": "0c40b7e4c6d7ba176233",
-    "url": "/electric_site/static/css/main.9c9a0c61.chunk.css"
+    "revision": "601b7062e8857c062f2d",
+    "url": "/electric_site/static/css/main.bb9da197.chunk.css"
   },
   {
     "revision": "492707289b459651324f",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/electric_site/static/js/2.a3d91fe4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c40b7e4c6d7ba176233",
+    "revision": "601b7062e8857c062f2d",
     "url": "/electric_site/static/js/main.82415eb4.chunk.js"
   },
   {
     "revision": "426706ab87c3c1a220ef",
     "url": "/electric_site/static/js/runtime-main.67f05231.js"
+  },
+  {
+    "revision": "23e2b7869b47475b537ba043fdccbc8c",
+    "url": "/electric_site/static/media/electric10.23e2b786.jpg"
   },
   {
     "revision": "1e097c2d5528752c151828e4bddf32b8",
@@ -42,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60542d3f4232dd3bb0f99351e1b3dba2",
     "url": "/electric_site/static/media/electric8.60542d3f.jpg"
-  },
-  {
-    "revision": "e5a736bd82db6e38ae54726ff348d32a",
-    "url": "/electric_site/static/media/electric9.e5a736bd.jpg"
   },
   {
     "revision": "d268db76861300a98aa4e747e128d35c",
