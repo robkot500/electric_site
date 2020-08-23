@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "968936a6b91e0f87e8075c6d00d8c0e4",
+    "revision": "ac295df82dddf922823ef67ae28f9a00",
     "url": "/electric_site/index.html"
   },
   {
-    "revision": "9f54348439dbb5ce9a84",
-    "url": "/electric_site/static/css/main.8bcaa2bb.chunk.css"
+    "revision": "f2be8a467b780b280c52",
+    "url": "/electric_site/static/css/main.fb9cfd43.chunk.css"
   },
   {
     "revision": "0b8030a52e62e044afed",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/electric_site/static/js/2.03b7b382.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f54348439dbb5ce9a84",
+    "revision": "f2be8a467b780b280c52",
     "url": "/electric_site/static/js/main.5ef13529.chunk.js"
   },
   {
