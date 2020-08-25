@@ -1,19 +1,15 @@
 
 @media screen and (max-width: 700px) {
     .nav{
-        // position: relative;
-        height: 50px;
+        height: 3.1rem;
         .menu-container{
-            @include hamburger;
-            // padding-right: 0;
-            // position:static;
             .menu-wrapper{
                 display: none;
                 flex-direction: column;
-                height: 170px;
-                width: 160px;
+                height: 10.5rem;
+                width: 10rem;
                 position: absolute;
-                top:50px;
+                top:3.1rem;
                 right: 0;
                 background-color: $black;
                 cursor: pointer;
@@ -21,8 +17,7 @@
             li{
                 
                 width: auto;
-                // align-items: flex-end;
-                height: 32px;
+                height: 2rem;
             }
             li:hover{
                 background-color: $main-color;
@@ -31,18 +26,16 @@
                 font-size: 0.8rem;
             }
             .ham{
-                right: 20px;
-                top: 15px;
+                right: 1.2rem;
+                top: 0.8rem;
                 display: block;
                 cursor: pointer;
               }
         }
         .logo{
-            // margin: 10px;
             margin-left: -120px;
-            // translate: 100px 100px ;
             width: 135px;
-        height: 14px;
+            height: 14px;
       
         }
         .click{
@@ -76,7 +69,6 @@
         .fa-angle-right,
         .fa-angle-left{
             font-size: 1.5rem;
-            color: $font-color-light;
         }
         .arrow-wrapper{
             width: 1.7rem;
@@ -86,66 +78,34 @@
             width: 100%;
             height: 65%;
             font-size: 1.7rem;
-            // font-weight: bold;
-            // display: flex;
-            // justify-content: center;
             align-items: center;
-            // flex-direction: column;
         }
-        // .item{
-           
-        //     display: flex;
-        //     justify-content: center;
-        //     align-items: center;
-        // }
+      
         .item-up{
             width: 65%;
-            height: 22%;
-            background-color:$main-color;
-            color: $font-color-light;
-            // font-size: 3vw;
+            height: 16%;
             font-size: calc(0.7rem + 1.2vw);
             margin-top: -300px;
-            opacity: 0.2;
         }
         .item-down{
-            background-color:$black;
-            color: $font-color-light;
             width: 65%;
             height: 35%;
             font-size: calc(0.5rem + 0.8vw);
-            padding: 0 14px 0 14px;
-            margin-bottom: -300px;
-            opacity: 0.2;
-            z-index: 1;
+            line-height:calc(0.6rem + 0.9vw);
+            // margin-bottom: -300px;
             // position: relative;
         }
         .item-buttons{
             width: 65%;
             height: 30%;
-            margin-top: -300px;
-            display: flex;
-            justify-content: space-between;
-            opacity: 0.2;
+            // margin-top: -300px;
         }
         .button-left,
         .button-right{
             width: 35%;
             height: 55%;
-            background-color: $main-color;
-            z-index: 10;
             font-size: calc(0.6rem + 0.8vw);
-            color: $font-color-light;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .button-right{
-            background-color: $black;
-            color:$font-color-light
-        }
-        
-        
+        }       
     }
     
     .main{
@@ -153,7 +113,7 @@
         .main-slogan{
             font-size: 1.4rem;
             line-height: 1.9rem;
-            margin-top: 0px;
+            margin-top: 0;
             padding: 1rem;
         }
         .main-item-wrapper{
@@ -169,9 +129,7 @@
   @media screen and (min-width: 701px) and (max-width: 899px) {
     .nav{
         .menu-container{
-            @include hamburger;
             padding-right: 0;
-            
         }
         .logo{
             margin-left: -120px;
