@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9467eb9b0b8935b99eae669638b9bdb",
+    "revision": "20988f0621f0f33db872b5374df5c723",
     "url": "/electric_site/index.html"
   },
   {
-    "revision": "ca4ec3c39a6361f1f911",
-    "url": "/electric_site/static/css/main.af1d2ffb.chunk.css"
+    "revision": "83b260aed77dc7d678cb",
+    "url": "/electric_site/static/css/main.01b95070.chunk.css"
   },
   {
-    "revision": "492707289b459651324f",
-    "url": "/electric_site/static/js/2.a3d91fe4.chunk.js"
+    "revision": "c3999810583a4c854328",
+    "url": "/electric_site/static/js/2.f4f9282d.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/electric_site/static/js/2.a3d91fe4.chunk.js.LICENSE.txt"
+    "url": "/electric_site/static/js/2.f4f9282d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca4ec3c39a6361f1f911",
-    "url": "/electric_site/static/js/main.151d1fce.chunk.js"
+    "revision": "83b260aed77dc7d678cb",
+    "url": "/electric_site/static/js/main.37b30d6a.chunk.js"
   },
   {
     "revision": "426706ab87c3c1a220ef",
@@ -50,5 +50,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d268db76861300a98aa4e747e128d35c",
     "url": "/electric_site/static/media/impuls.d268db76.jpg"
+  },
+  {
+    "revision": "60a8e275d032c81b4722fbb1cdf09558",
+    "url": "/electric_site/static/media/plan2.60a8e275.jpg"
+  },
+  {
+    "revision": "cdec3d7a7202566904b40c0beca88c99",
+    "url": "/electric_site/static/media/tools.cdec3d7a.jpg"
   }
 ]);
