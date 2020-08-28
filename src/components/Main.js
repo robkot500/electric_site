@@ -53,11 +53,14 @@ function Main() {
     }
 
     const [ref, inView] = useInView({
-        rootMargin: '-100px 0px',
+        rootMargin: '50px 0px',
     })
     const [ref2, inView2] = useInView({
         rootMargin: '50px 0px',
     })
+    // const [ref3, inView3] = useInView({
+    //     rootMargin: '50px 0px',
+    // })
 
 
     const items = electrician.map(each => {
@@ -67,7 +70,7 @@ function Main() {
             //     <div class="main-item-slogan">{each.title}</div>
             //     <div className='main-item-text'>{each.text}</div>
             // </motion.div>
-            <motion.div className={each === electrician[0] | each === electrician[1] ? "main-item first-two" : "main-item"} variants={mainVariants1} ref={ref2} animate={inView2 ? ('visible') : ({})} initial='hidden' >
+            <motion.div className={each === electrician[0] | each === electrician[1] ? "main-item first-two" : "main-item"} variants={mainVariants1} ref={ref} animate={inView ? ('visible') : ({})} initial='hidden' >
                 <div class="icon-wrapper"><i className={each.icon}></i></div>
                 <div class="main-item-slogan">{each.title}</div>
                 <div className='main-item-text'>{each.text}</div>
@@ -83,20 +86,21 @@ function Main() {
             {/* <motion.div className='main-item-wrapper' ref={ref} initial={{ y: 200 }} animate={inView ? ({ y: 0, opacity: 1 }) : ({})} transition={{ ease: "easeOut", duration: 0.5 }}>
                 {items}
             </motion.div> */}
-            <motion.div className='main-item-wrapper' variants={mainVariants1} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} >
+            <motion.div className='main-item-wrapper' variants={mainVariants1} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} >
                 {items}
             </motion.div>
             {/* <motion.div className='main-about' ref={ref3} initial={{ y: 200 }} animate={inView3 ? ({ y: 0, opacity: 1 }) : ({})} transition={{ ease: "easeOut", duration: 0.5 }}>
             </motion.div> */}
-            <motion.div className='main-about' variants={mainVariants1} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} >
+            <motion.div className='main-about' variants={mainVariants2} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }} >
             </motion.div>
             <div className="main-about-wrapper">
-                <motion.div class="main-about-left" variants={mainVariants2} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} transition={{ delay: 0, ease: "easeOut", duration: 0.5 }}>
-                    <motion.div class="main-about-title" variants={mainVariants2} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }}>O firmie</motion.div>
-                    <motion.div class="about-slogan" variants={mainVariants2} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} transition={{ delay: 0.7, ease: "easeOut", duration: 0.5 }}>Zadowolenie klienta jest dla nas najważniejsze</motion.div>
-                    <motion.div class="about-text" variants={mainVariants2} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} transition={{ delay: 0.9, ease: "easeOut", duration: 0.5 }}>Jesteśmy firmą.... lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor nostrum vel rerum delectus facilis aliquid atque, obcaecati architecto eligendi porro at neque incidunt repellat! Delectus possimus facere autem, nesciunt ratione omnis exercitationem obcaecati pariatur. Modi, deserunt optio mollitia odio reprehenderit autem aperiam iure illum in ab? Assumenda omnis aspernatur totam?
+                <motion.div class="main-about-left" variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }}>
+                    <motion.div class="main-about-title" variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }}>O firmie</motion.div>
+                    <motion.div class="about-slogan" variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0.7, ease: "easeOut", duration: 0.5 }}>Zadowolenie klienta jest dla nas najważniejsze</motion.div>
+                    <motion.div class="about-text" variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0.9, ease: "easeOut", duration: 0.5 }}>Jesteśmy firmą.... lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor nostrum vel rerum delectus facilis aliquid atque, obcaecati architecto eligendi porro at neque incidunt repellat! Delectus possimus facere autem, nesciunt ratione omnis exercitationem obcaecati pariatur. Modi, deserunt optio mollitia odio reprehenderit autem aperiam iure illum in ab? Assumenda omnis aspernatur totam?
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum beatae amet at illo quibusdam tempora ab iusto sed, quos, dignissimos hic deserunt. Blanditiis ipsum quaerat saepe, nam similique cupiditate autem nobis sit quod tenetur cum pariatur. Possimus ad.
                     </motion.div>
+                    <motion.div className='main-line' variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 1.1, ease: "easeOut", duration: 0.5 }}></motion.div>
                 </motion.div>
                 <motion.div class="main-about-right" ref={ref} initial={{ opacity: 0, x: 200 }} animate={inView ? ({ x: 0, opacity: 1 }) : ({})} transition={{ delay: 2, ease: "easeOut", duration: 0.5 }}></motion.div>
             </div>

@@ -5,11 +5,12 @@
 @import './partials/nav';
 @import './partials/main';
 @import './partials/media';
+@import './partials/section-one';
 
 
 .container{
     width: 100%;
-    height: auto;
+    // height: auto;
     font-family: $font;
     color: $black;
     background-color: #e8e8e8;

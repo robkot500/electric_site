@@ -117,4 +117,10 @@
         margin: 20px 40px;
         text-align: justify;
     }
+    .main-line{
+        width: 50%;
+        height: 2px;
+        border:2px solid $main-color;
+        margin: 40px auto;
+    }
 }

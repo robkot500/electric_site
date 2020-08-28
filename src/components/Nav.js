@@ -10,12 +10,22 @@ function Nav() {
     const handleClick = () => {
         setHamburger(!hamburger)
     }
+    const navVariants = {
+        hidden: {
+
+        },
+        visible: {
+
+        }
+    }
     return (
         <>
 
             <div className={hamburger ? ('nav nav-background') : ('nav')}>
 
-                <motion.div className='logo' animate={{ height: 55, x: 140, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} >
+                {/* <motion.div className='logo' animate={{ height: 55, x: 140, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} >
+                </motion.div> */}
+                <motion.div className='logo' initial={{ opacity: 0, height: 10, x: -300 }} animate={{ x: 0, height: 55, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} >
                 </motion.div>
                 <div className={hamburger ? ('menu-container click') : ('menu-container')}>
                     <div onClick={handleClick} className='ham'>
