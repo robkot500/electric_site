@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20988f0621f0f33db872b5374df5c723",
+    "revision": "9a4a46a470d555d9a54afe79d541b7ad",
     "url": "/electric_site/index.html"
   },
   {
-    "revision": "83b260aed77dc7d678cb",
-    "url": "/electric_site/static/css/main.01b95070.chunk.css"
+    "revision": "b8088cbca4a51a458cb3",
+    "url": "/electric_site/static/css/main.ec232288.chunk.css"
   },
   {
     "revision": "c3999810583a4c854328",
@@ -16,12 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/electric_site/static/js/2.f4f9282d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83b260aed77dc7d678cb",
-    "url": "/electric_site/static/js/main.37b30d6a.chunk.js"
+    "revision": "b8088cbca4a51a458cb3",
+    "url": "/electric_site/static/js/main.f0e183bf.chunk.js"
   },
   {
     "revision": "426706ab87c3c1a220ef",
     "url": "/electric_site/static/js/runtime-main.67f05231.js"
+  },
+  {
+    "revision": "74f8071231d311b20870c2f3f314ad45",
+    "url": "/electric_site/static/media/el1.74f80712.jpg"
+  },
+  {
+    "revision": "a52bd9558a6b7f06b376be9f1735f9d7",
+    "url": "/electric_site/static/media/el3.a52bd955.jpg"
+  },
+  {
+    "revision": "1af35ee4b0ba62d374297ad30d4320a3",
+    "url": "/electric_site/static/media/el4.1af35ee4.jpg"
   },
   {
     "revision": "23e2b7869b47475b537ba043fdccbc8c",
@@ -48,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/electric_site/static/media/electric8.60542d3f.jpg"
   },
   {
-    "revision": "d268db76861300a98aa4e747e128d35c",
-    "url": "/electric_site/static/media/impuls.d268db76.jpg"
+    "revision": "518d5be7ff4d28662cadbddcaf7a7673",
+    "url": "/electric_site/static/media/handshake.518d5be7.jpg"
   },
   {
-    "revision": "60a8e275d032c81b4722fbb1cdf09558",
-    "url": "/electric_site/static/media/plan2.60a8e275.jpg"
+    "revision": "d268db76861300a98aa4e747e128d35c",
+    "url": "/electric_site/static/media/impuls.d268db76.jpg"
   },
   {
     "revision": "cdec3d7a7202566904b40c0beca88c99",
