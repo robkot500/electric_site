@@ -2,7 +2,7 @@ import React from 'react';
 // import { useState, useEffect } from 'react';
 // import UseAnimations from 'react-useanimations';
 import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import { Link, Element } from "react-scroll";
 // import { Element } from "react-scroll";
 
@@ -91,8 +91,7 @@ function Main() {
             </motion.div>
             {/* <motion.div className='main-about' ref={ref3} initial={{ y: 200 }} animate={inView3 ? ({ y: 0, opacity: 1 }) : ({})} transition={{ ease: "easeOut", duration: 0.5 }}>
             </motion.div> */}
-            <motion.div className='main-about' variants={mainVariants2} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }} >
-            </motion.div>
+            <motion.div className='main-about' variants={mainVariants2} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }} >O firmie</motion.div>
             <div className="main-about-wrapper">
                 <motion.div class="main-about-left" variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }}>
                     {/* <motion.div class="main-about-title" variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }}>O firmie</motion.div> */}

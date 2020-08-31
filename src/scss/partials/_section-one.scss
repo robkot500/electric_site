@@ -1,6 +1,6 @@
 .section-one-container{
     width: 80%;
-    height: 1000px;
+    height: 1800px;
     margin:auto;
     // border-top: 6px solid $main-color;
     .parallax-one{
@@ -30,10 +30,16 @@
         flex-direction: column;
     }
     .offer-title{
-        text-align: center;
+        height: 60px;
+        // text-align: center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
         font-size: 1.7rem;
-        margin: 1rem auto;
+        margin: 0 auto;
         font-weight:600;
+        color:$white;
+        background-color:$main-color;
     }
     ul{
         display: flex;
@@ -50,8 +56,9 @@
         height: 440px;
         background-color: white;
         display: flex;
+        border-bottom: 1px solid 	#F0F0F0;
     }
-    .offer-wrapper-picture{
+    .offer-wrapper-picture1{
         width: 40%;
         height: 400px ;
         // border: 1px solid black;
@@ -61,6 +68,27 @@
         background-size: contain;
         margin:25px;
     }
+    .offer-wrapper-picture2{
+        width: 40%;
+        height: 400px ;
+        // border: 1px solid black;
+        background-image: url('./../../assets/el4.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin:25px;
+    }
+    .offer-wrapper-picture3{
+        width: 40%;
+        height: 400px ;
+        // border: 1px solid black;
+        background-image: url('./../../assets/el1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin:25px;
+    }
+
     .offer-wrapper-right{
         width: 60%;
         height: 400px;
