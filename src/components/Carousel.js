@@ -4,7 +4,6 @@ import ReactSwipe from 'react-swipe';
 import { motion } from 'framer-motion';
 import { Link, Element } from "react-scroll";
 
-// import Slide from './Slide'
 
 const Carousel = () => {
 
@@ -57,7 +56,6 @@ const Carousel = () => {
     })
 
     return (
-        // <div className='carousel-container'>
         <div className='carousel-container'>
             <ReactSwipe
                 className="carousel"

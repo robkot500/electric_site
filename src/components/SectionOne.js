@@ -12,6 +12,13 @@ function SectionOne() {
     const [ref3, inView3] = useInView({
         rootMargin: '450px 0px',
     })
+    const [ref4, inView4] = useInView({
+        rootMargin: '450px 0px',
+    })
+    const [ref5, inView5] = useInView({
+        rootMargin: '450px 0px',
+    })
+
     const offer = [
         {
             picture: '1',
@@ -66,7 +73,43 @@ function SectionOne() {
                     </>
                 )
             }
-        }
+        },
+        {
+            picture: '4',
+            name: 'Serwis i naprawa',
+            text: 'Instalacje Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minima est aliquam fugiat, sed aperiam nulla doloremque alias eligendi amet eum maxime temporibus, odio mollitia iste hic praesentium laborum architecto enim illo! At esse, temporibus harum voluptatum sit non! Neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore molestiae, earum, illum doloremque ducimus quidem dolore debitis saepe, excepturi odio voluptatibus! Commodi nostrum delectus accusamus esse aut minima, sunt neque molestias excepturi rerum perspiciatis nihil sapiente perferendis quaerat laudantium velit? ',
+            ref: ref4,
+            inView: inView4,
+            points: () => {
+                return (
+                    <>
+                        <div className="offer-points-slogan">Instalacja odbiorcza może składać się z następujących obwodów</div>
+                        <div><i className="fas fa-long-arrow-alt-right"></i>oświetlenia ogólnego,</div>
+                        <div><i className="fas fa-long-arrow-alt-right"></i>gniazd wtyczkowych</div>
+                        <div><i className="fas fa-long-arrow-alt-right"></i>kuchni elektrycznej,</div>
+                        <div><i className="fas fa-long-arrow-alt-right"></i>elektrycznego podgrzewacza wody,</div>
+                    </>
+                )
+            }
+        },
+        {
+            picture: '5',
+            name: 'Pomiary elektryczne',
+            text: 'Instalacje Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minima est aliquam fugiat, sed aperiam nulla doloremque alias eligendi amet eum maxime temporibus, odio mollitia iste hic praesentium laborum architecto enim illo! At esse, temporibus harum voluptatum sit non! Neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore molestiae, earum, illum doloremque ducimus quidem dolore debitis saepe, excepturi odio voluptatibus! Commodi nostrum delectus accusamus esse aut minima, sunt neque molestias excepturi rerum perspiciatis nihil sapiente perferendis quaerat laudantium velit? ',
+            ref: ref5,
+            inView: inView5,
+            points: () => {
+                return (
+                    <>
+                        <div className="offer-points-slogan">Instalacja odbiorcza może składać się z następujących obwodów</div>
+                        <div><i className="fas fa-long-arrow-alt-right"></i>oświetlenia ogólnego,</div>
+                        <div><i className="fas fa-long-arrow-alt-right"></i>gniazd wtyczkowych</div>
+                        <div><i className="fas fa-long-arrow-alt-right"></i>kuchni elektrycznej,</div>
+                        <div><i className="fas fa-long-arrow-alt-right"></i>elektrycznego podgrzewacza wody,</div>
+                    </>
+                )
+            }
+        },
     ]
     const mainVariants1 = {
         hidden: {
