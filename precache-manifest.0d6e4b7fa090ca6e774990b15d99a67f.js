@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "706814264b41123adbe6d2b6a400b883",
+    "revision": "45cfc18789b0274317fbb59d3f9946ee",
     "url": "/electric_site/index.html"
   },
   {
-    "revision": "53f4802be174b1de7e69",
-    "url": "/electric_site/static/css/main.501d0023.chunk.css"
+    "revision": "30f14a16f055c9a4c4ee",
+    "url": "/electric_site/static/css/main.e6bdb975.chunk.css"
   },
   {
     "revision": "47d3d47851008c670041",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/electric_site/static/js/2.263ac32d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53f4802be174b1de7e69",
-    "url": "/electric_site/static/js/main.694f4d57.chunk.js"
+    "revision": "30f14a16f055c9a4c4ee",
+    "url": "/electric_site/static/js/main.94232ed1.chunk.js"
   },
   {
     "revision": "426706ab87c3c1a220ef",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "74f8071231d311b20870c2f3f314ad45",
     "url": "/electric_site/static/media/el1.74f80712.jpg"
+  },
+  {
+    "revision": "438b1eb56918f8473129da0d1afe70f9",
+    "url": "/electric_site/static/media/el16.438b1eb5.jpg"
   },
   {
     "revision": "a52bd9558a6b7f06b376be9f1735f9d7",
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60542d3f4232dd3bb0f99351e1b3dba2",
     "url": "/electric_site/static/media/electric8.60542d3f.jpg"
+  },
+  {
+    "revision": "ca11aae71214f045503bdd65e1aeedec",
+    "url": "/electric_site/static/media/ell11.ca11aae7.jpg"
   },
   {
     "revision": "518d5be7ff4d28662cadbddcaf7a7673",
