@@ -50,7 +50,7 @@ function Main() {
     }
 
     const [ref, inView] = useInView({
-        rootMargin: '250px 0px',
+        rootMargin: '250px  0px',
     })
     const [ref2, inView2] = useInView({
         rootMargin: '50px 0px',

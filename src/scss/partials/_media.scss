@@ -121,17 +121,15 @@
         }
         .main-item-wrapper{
             flex-direction: column;
-            // margin-top:-70px;
-            // z-index: 100;
             position: relative;
-            height: 1850px;
+            // height: 1850px;
+            height: auto;
             // margin-top: -30px;
             // padding: -150px;
             // margin-top: -0px;
             .main-item{
                 width: 100%;
                 height: auto;
-               
             }
             .main-item:first-child{
                 padding-top: 5rem;
@@ -139,6 +137,10 @@
             .main-item-text{
                 font-size: 1rem;
             }
+        }
+        .main-about-wrapper{
+            flex-direction: column;
+            width: 100%;
         }
     }
    
