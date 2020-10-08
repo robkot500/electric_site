@@ -41,7 +41,7 @@ function Main() {
     const mainVariants2 = {
         hidden: {
             y: 200,
-            opacity: 0,
+            opacity: 0.5,
         },
         visible: {
             y: 0,
@@ -50,10 +50,17 @@ function Main() {
     }
 
     const [ref, inView] = useInView({
-        rootMargin: '250px  0px',
+        rootMargin: '250px  0px 250px 0px',
     })
     const [ref2, inView2] = useInView({
-        rootMargin: '50px 0px',
+        // threshold: 0,
+        rootMargin: '50px 0px 0px 0px',
+    })
+    const [ref3, inView3] = useInView({
+        rootMargin: '0px 0px -20% 0px',
+    })
+    const [ref4, inView4] = useInView({
+        rootMargin: '0px 0px -30% 0px',
     })
 
 
@@ -71,9 +78,45 @@ function Main() {
     return (
         <Element name='main' className='main'>
             <motion.div className='main-slogan' variants={mainVariants1} initial='hidden' animate='visible'  >Profesjonalne usługi elektryczne w Rybniku i okolicach. Zaufaj wiedzy i doświadczeniu.</motion.div>
-            <motion.div className='main-item-wrapper' variants={mainVariants1} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} >
+            {/* <motion.div className='main-item-wrapper' variants={mainVariants1} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} >
                 {items}
-            </motion.div>
+            </motion.div> */}
+            {/* <div className='main-item-wrapper'>
+                {items}
+            </div> */}
+            <div className='main-item-wrapper' ref={ref3}>
+                <motion.div className="main-item first-two" variants={mainVariants1} animate={inView3 ? ('visible') : ({})} initial='hidden' >
+                    <div class="icon-wrapper"><i className='fas fa-user-cog'></i></div>
+                    <div class="main-item-slogan">Wiedza i doświadczenie</div>
+                    <div className='main-item-text'>Dzięki doświadczeniu i ciągłemu podnoszeniu kwalifikacji instalacje są układane fachowo i w oparciu o najnowsze trendy, a usterki są usuwane szybko i dokładnie.}</div>
+                </motion.div>
+                <motion.div className="main-item first-two" variants={mainVariants1} animate={inView3 ? ('visible') : ({})} initial='hidden' >
+                    <div class="icon-wrapper"><i className='fas fa-user-cog'></i></div>
+                    <div class="main-item-slogan">Wiedza i doświadczenie</div>
+                    <div className='main-item-text'>Dzięki doświadczeniu i ciągłemu podnoszeniu kwalifikacji instalacje są układane fachowo i w oparciu o najnowsze trendy, a usterki są usuwane szybko i dokładnie.}</div>
+                </motion.div>
+                <motion.div className="main-item" variants={mainVariants1} animate={inView3 ? ('visible') : ({})} initial='hidden' >
+                    <div class="icon-wrapper"><i className='fas fa-user-cog'></i></div>
+                    <div class="main-item-slogan">Wiedza i doświadczenie</div>
+                    <div className='main-item-text'>Dzięki doświadczeniu i ciągłemu podnoszeniu kwalifikacji instalacje są układane fachowo i w oparciu o najnowsze trendy, a usterki są usuwane szybko i dokładnie.}</div>
+                </motion.div>
+                <motion.div className="main-item" variants={mainVariants1} animate={inView3 ? ('visible') : ({})} initial='hidden' >
+                    <div class="icon-wrapper"><i className='fas fa-user-cog'></i></div>
+                    <div class="main-item-slogan">Wiedza i doświadczenie</div>
+                    <div className='main-item-text'>Dzięki doświadczeniu i ciągłemu podnoszeniu kwalifikacji instalacje są układane fachowo i w oparciu o najnowsze trendy, a usterki są usuwane szybko i dokładnie.}</div>
+                </motion.div>
+                {/* <motion.div className="main-item " variants={mainVariants1} ref={ref} animate={inView ? ('visible') : ({})} initial='hidden' >
+                    <div class="icon-wrapper"><i className='fas fa-user-cog'></i></div>
+                    <div class="main-item-slogan">Wiedza i doświadczenie</div>
+                    <div className='main-item-text'>Dzięki doświadczeniu i ciągłemu podnoszeniu kwalifikacji instalacje są układane fachowo i w oparciu o najnowsze trendy, a usterki są usuwane szybko i dokładnie.}</div>
+                </motion.div>
+                <motion.div className="main-item " variants={mainVariants1} ref={ref} animate={inView ? ('visible') : ({})} initial='hidden' >
+                    <div class="icon-wrapper"><i className='fas fa-user-cog'></i></div>
+                    <div class="main-item-slogan">Wiedza i doświadczenie</div>
+                    <div className='main-item-text'>Dzięki doświadczeniu i ciągłemu podnoszeniu kwalifikacji instalacje są układane fachowo i w oparciu o najnowsze trendy, a usterki są usuwane szybko i dokładnie.}</div>
+                </motion.div> */}
+
+            </div>
             <motion.div className='main-about' variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0, ease: "easeOut", duration: 0.5 }} >O firmie</motion.div>
             <div className="main-about-wrapper">
                 <motion.div class="main-about-left" variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0.5, ease: "easeOut", duration: 0.5 }}>

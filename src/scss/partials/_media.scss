@@ -121,7 +121,7 @@
         }
         .main-item-wrapper{
             flex-direction: column;
-            position: relative;
+            // position: relative;
             // height: 1850px;
             height: auto;
             // margin-top: -30px;
@@ -132,7 +132,7 @@
                 height: auto;
             }
             .main-item:first-child{
-                padding-top: 5rem;
+                padding-top: 2rem;
             }
             .main-item-text{
                 font-size: 1rem;
