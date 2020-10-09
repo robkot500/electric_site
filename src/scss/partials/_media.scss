@@ -142,8 +142,28 @@
             flex-direction: column;
             width: 100%;
         }
+        .main-about-left{
+            width: 100%;
+            order: 2;
+       }
+       .main-about-right{
+            order: 1;
+            width: 100%;
+            height: 70vw;
+            margin: 0;
+            background-size: cover;
+       }
+       .about-text{
+          
+       }
+
     }
-   
+   .section-one-container{
+       .offer-wrapper{
+           flex-direction: column;
+       }
+     
+   }
 }
   @media screen and (min-width: 701px) and (max-width: 899px) {
     .nav{
