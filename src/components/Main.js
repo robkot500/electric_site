@@ -60,7 +60,8 @@ function Main() {
         rootMargin: '0px 0px -20% 0px',
     })
     const [ref4, inView4] = useInView({
-        rootMargin: '0px 0px opx 0px',
+        // threshold: 0,
+        rootMargin: '50px 0px 0px 0px',
     })
 
 
@@ -77,13 +78,14 @@ function Main() {
     })
 
     return (
-        <Element name='main' className='main'>
-            <motion.div className='main-slogan' variants={mainVariants1} initial='hidden' animate='visible'  >Profesjonalne usługi elektryczne w Rybniku i okolicach. Zaufaj wiedzy i doświadczeniu.
+        <Element className='main'>
+            <motion.div className='main-slogan' variants={mainVariants1} initial='hidden' animate='visible'  >
+                Profesjonalne usługi elektryczne w Rybniku i okolicach. Zaufaj wiedzy i doświadczeniu.
             </motion.div>
             <div className='main-item-wrapper' ref={ref3}>
                 {items}
             </div>
-            <motion.div className='main-about' variants={mainVariants2} ref={ref2} initial='hidden' animate={inView2 ? ('visible') : ({})} transition={{ delay: 0, ease: "easeOut", duration: 0.5 }} >
+            <motion.div name='main' className='main-about' variants={mainVariants2} ref={ref} initial='hidden' animate={inView ? ('visible') : ({})} transition={{ delay: 0, ease: "easeOut", duration: 0.5 }} >
                 O firmie
             </motion.div>
             <div className="main-about-wrapper">

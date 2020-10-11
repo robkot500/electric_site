@@ -34,7 +34,6 @@ function Nav() {
                         <li><Link onClick={handleClick} smooth={true} to="/">STRONA GŁÓWNA</Link></li>
                         <li><Link onClick={handleClick} smooth={true} to="main">O FIRMIE</Link></li>
                         <li><Link onClick={handleClick} smooth={true} to="about">OFERTA</Link></li>
-                        <li><Link onClick={handleClick} smooth={true} to="contact">REALIZACJE</Link></li>
                         <li><Link onClick={handleClick} smooth={true} to="contact">KONTAKT</Link></li>
                     </ul>
                 </div>

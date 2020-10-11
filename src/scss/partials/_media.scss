@@ -145,6 +145,7 @@
         }
         .main-about-left{
             width: 100%;
+<<<<<<< HEAD
         }
         .main-about-right{
             width: 100%;
@@ -155,6 +156,27 @@
         .offer-wrapper{
             flex-direction: column;
         }
+=======
+            order: 2;
+       }
+       .main-about-right{
+            order: 1;
+            width: 100%;
+            height: 250px;
+            margin: 0;
+            background-size: cover;
+       }
+       .about-text{
+          
+       }
+
+    }
+   .section-one-container{
+       .offer-wrapper{
+           flex-direction: column;
+       }
+     
+>>>>>>> d659853bee4e32a951acb56f385341349a711a33
    }
 }
   @media screen and (min-width: 701px) and (max-width: 899px) {
