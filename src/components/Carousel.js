@@ -41,8 +41,10 @@ const Carousel = () => {
             <div className={`carousel-item carousel-item-${item.number}`}>
                 <div onClick={() => reactSwipeEl.prev()} className='arrow-wrapper'><i class="fas fa-angle-left"></i></div>
                 < div className='item-wrapper' >
-                    <motion.div animate={{ y: 120, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-up'>{item.textUp}</motion.div>
-                    <motion.div animate={{ y: -200, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-down'>{item.textDown}</motion.div>
+                    <motion.div animate={{ y: 120, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-up'>{item.textUp}
+                    </motion.div>
+                    <motion.div animate={{ y: -200, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-down'>{item.textDown}
+                    </motion.div>
                     <motion.div animate={{ y: 105, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} class="item-buttons">
                         <div class="button-left">Oferta</div>
                         <div class="button-right">Wycena</div>

@@ -4,19 +4,22 @@ import { motion } from "framer-motion";
 
 function SectionOne() {
     const [ref1, inView1] = useInView({
-        rootMargin: '450px 0px',
+        rootMargin: '0px 0px -200px 0px',
     })
     const [ref2, inView2] = useInView({
-        rootMargin: '450px 0px',
+        rootMargin: '0px 0px -200px 0px',
     })
     const [ref3, inView3] = useInView({
-        rootMargin: '450px 0px',
+        rootMargin: '0px 0px -200px 0px',
+
     })
     const [ref4, inView4] = useInView({
-        rootMargin: '450px 0px',
+        rootMargin: '0px 0px -200px 0px',
+
     })
     const [ref5, inView5] = useInView({
-        rootMargin: '450px 0px',
+        rootMargin: '0px 0px -200px 0px',
+
     })
 
     const offer = [
@@ -124,16 +127,16 @@ function SectionOne() {
 
     const displayOffer = offer.map((each) => {
         return (
-            <div class="offer-wrapper">
-                <motion.div class={`offer-pictures offer-picture${each.picture}`} ref={each.ref} initial={{ opacity: 0, x: -200 }} animate={each.inView ? ({ x: 0, opacity: 1 }) : ({})} transition={{ delay: 1, ease: "easeOut", duration: 0.5 }}>
+            <div class="offer-wrapper" name='offer' ref={each.ref}>
+                <motion.div class={`offer-pictures offer-picture${each.picture}`} initial={{ opacity: 0, x: -200 }} animate={each.inView ? ({ x: 0, opacity: 1 }) : ({})} transition={{ delay: 0, ease: "easeOut", duration: 0.5 }}>
                 </motion.div>
                 <div class="offer-wrapper-right">
-                    <motion.div class="offer-wrapper-name" variants={mainVariants1} initial='hidden' ref={each.ref} animate={each.inView ? ('visible') : ({})} transition={{ delay: 0, ease: "easeOut", duration: 1 }}>{each.name}</motion.div>
-                    <motion.div class="offer-text" variants={mainVariants1} initial='hidden' ref={each.ref} animate={each.inView ? ('visible') : ({})} transition={{ delay: 0.2, ease: "easeOut", duration: 0.5 }}>{each.text}</motion.div>
-                    <motion.div class="offer-points" variants={mainVariants1} initial='hidden' ref={each.ref} animate={each.inView ? ('visible') : ({})} transition={{ delay: 0.4, ease: "easeOut", duration: 0.5 }}>
+                    <motion.div class="offer-wrapper-name" variants={mainVariants1} initial='hidden' animate={each.inView ? ('visible') : ({})} transition={{ delay: 0.6, ease: "easeOut", duration: 0.5 }}>{each.name}</motion.div>
+                    <motion.div class="offer-text" variants={mainVariants1} initial='hidden' animate={each.inView ? ('visible') : ({})} transition={{ delay: 0.8, ease: "easeOut", duration: 0.5 }}>{each.text}</motion.div>
+                    <motion.div class="offer-points" variants={mainVariants1} initial='hidden' animate={each.inView ? ('visible') : ({})} transition={{ delay: 1, ease: "easeOut", duration: 0.5 }}>
                         {each.points()}
                     </motion.div>
-                    <motion.div class="offer-line" variants={mainVariants1} initial='hidden' ref={each.ref} animate={each.inView ? ('visible') : ({})} transition={{ delay: 0.6, ease: "easeOut", duration: 0.5 }}></motion.div>
+                    <motion.div class="offer-line" variants={mainVariants1} initial='hidden' animate={each.inView ? ('visible') : ({})} transition={{ delay: 1.2, ease: "easeOut", duration: 0.5 }}></motion.div>
                 </div>
             </div>
         )

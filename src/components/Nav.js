@@ -33,7 +33,7 @@ function Nav() {
                     <ul className='menu-wrapper'>
                         <li><Link onClick={handleClick} smooth={true} to="/">STRONA GŁÓWNA</Link></li>
                         <li><Link onClick={handleClick} smooth={true} to="main">O FIRMIE</Link></li>
-                        <li><Link onClick={handleClick} smooth={true} to="about">OFERTA</Link></li>
+                        <li><Link onClick={handleClick} smooth={true} to="offer">OFERTA</Link></li>
                         <li><Link onClick={handleClick} smooth={true} to="contact">KONTAKT</Link></li>
                     </ul>
                 </div>
