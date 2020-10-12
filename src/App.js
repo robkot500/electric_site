@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Main from './components/Main';
 import Scroll from './components/Scroll'
 import SectionOne from './components/SectionOne';
+import Contact from './components/Contact';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Carousel />
       <Main />
       <SectionOne />
+      <Contact />
     </div>
 
   );
