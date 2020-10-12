@@ -137,7 +137,6 @@
             }
             .main-item-text{
                 font-size: 1rem;
-                margin-bottom: 2rem;
             }
         }
         .main-about-wrapper{
@@ -159,11 +158,20 @@
             font-size: 1.4rem;
         }
     }
-   .section-one-container{
-        .offer-wrapper{
-            flex-direction: column;
+    .container{
+        .section-one-container{
+            width: 90%;
+            .offer-wrapper{
+                 flex-direction: column;
+             }
+            .offer-pictures{
+               width: 100%;
+               height: 70vw;
+           }
         }
-   }
+
+    }
+   
 }
   @media screen and (min-width: 701px) and (max-width: 899px) {
     .nav{

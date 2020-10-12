@@ -125,9 +125,10 @@ function SectionOne() {
     const displayOffer = offer.map((each) => {
         return (
             <div class="offer-wrapper">
-                <motion.div class={`offer-wrapper-picture${each.picture}`} ref={each.ref} initial={{ opacity: 0, x: -200 }} animate={each.inView ? ({ x: 0, opacity: 1 }) : ({})} transition={{ delay: 1, ease: "easeOut", duration: 0.5 }}></motion.div>
+                <motion.div class={`offer-pictures offer-picture${each.picture}`} ref={each.ref} initial={{ opacity: 0, x: -200 }} animate={each.inView ? ({ x: 0, opacity: 1 }) : ({})} transition={{ delay: 1, ease: "easeOut", duration: 0.5 }}>
+                </motion.div>
                 <div class="offer-wrapper-right">
-                    <motion.div class="offer-wrapper-name" variants={mainVariants1} initial='hidden' ref={each.ref} animate={each.inView ? ('visible') : ({})} transition={{ ease: "easeOut", duration: 1, delay: 0 }}>{each.name}</motion.div>
+                    <motion.div class="offer-wrapper-name" variants={mainVariants1} initial='hidden' ref={each.ref} animate={each.inView ? ('visible') : ({})} transition={{ delay: 0, ease: "easeOut", duration: 1 }}>{each.name}</motion.div>
                     <motion.div class="offer-text" variants={mainVariants1} initial='hidden' ref={each.ref} animate={each.inView ? ('visible') : ({})} transition={{ delay: 0.2, ease: "easeOut", duration: 0.5 }}>{each.text}</motion.div>
                     <motion.div class="offer-points" variants={mainVariants1} initial='hidden' ref={each.ref} animate={each.inView ? ('visible') : ({})} transition={{ delay: 0.4, ease: "easeOut", duration: 0.5 }}>
                         {each.points()}

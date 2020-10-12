@@ -32,5 +32,11 @@
     }
 }
 @mixin offer-picture($number){
-  
+  width: 40%;
+  height: 30vw;
+  background-image: url('./../../assets/e#{$number}.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin:25px;
 }
