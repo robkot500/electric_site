@@ -5,6 +5,7 @@
     background-color:$white;
     display:flex;
     flex-direction: column;
+    overflow-y: hidden;
     // align-items: center;
         .contact-title{
         width: 100%;
@@ -18,24 +19,68 @@
         color:$white;
         background-color:$main-color;
     }
-    .contact-slogan{
-        padding-top: 30vh;
-        font-size:2rem;
-        color: black;
-        font-style: italic;
-        font-weight: 600;
+    .contact-box{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+
     }
     .contact-line{
-        // width: 20%;
-        // height: 2px;
-        // border:2px solid $main-color;
-        // margin: 20px;
+        width: 40%;
+        height: 3px;
+        border-bottom: 3px solid $main-color;
+        margin: 5% auto;
     }
-    .contact-where{
-        font-size:1.4rem;
+    .contact-wrapper{
+        width: 40%;
+        height: 70%;
+        // padding-top: 10%;
+        margin: 5%;
+        // border: 1px solid black;
+    }
+    .contact-slogan{
+        margin: 10% auto 2% auto;
+        font-size:1.8rem;
         color: black;
         font-style: italic;
         font-weight: 600;
+        text-align: center;
+    }
+   
+    .contact-where{
+        font-size:1.2rem;
+        color: black;
+        font-style: italic;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .contact-tel-email{
+      
+    }
+    .contact-tel,
+    .contact-email{
+        padding: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fas{
+        margin-right: 4%;
+        margin-bottom: 2%;
+        font-size: 1.8rem;
+        color: $main-color;
+    }
+    .contact-picture{
+        width: 40%;
+        height: 70%;
+        background-image: url('./../../assets/box.jpg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 5%;
+        // border: 1px solid black;
     }
    
 }
