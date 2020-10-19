@@ -175,6 +175,26 @@
         }
 
     }
+    .container{
+        .contact-container{
+        width: 90%;
+        height: 150vh;
+        .contact-box{
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-wrapper{
+                width:90%;
+                height: 50%;
+        }
+        .contact-picture{
+                width: 90%;
+                height: 50%;
+        }
+        
+    }
+}
+    
    
 }
   @media screen and (min-width: 701px) and (max-width: 899px) {

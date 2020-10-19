@@ -46,8 +46,8 @@ const Carousel = () => {
                     <motion.div animate={{ y: -200, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className='item item-down'>{item.textDown}
                     </motion.div>
                     <motion.div animate={{ y: 105, opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} class="item-buttons">
-                        <div class="button-left">Oferta</div>
-                        <div class="button-right">Wycena</div>
+                        <Link class="button-left" smooth={true} to="offer">Oferta</Link>
+                        <Link class="button-right" smooth={true} to="contact">Kontakt</Link>
                     </motion.div>
                 </div >
                 <div onClick={() => reactSwipeEl.next()} className='arrow-wrapper'><i class="fas fa-angle-right"></i></div>

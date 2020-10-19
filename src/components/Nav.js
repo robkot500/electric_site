@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from "react-scroll";
-import { Element } from "react-scroll";
+// import { Element } from "react-scroll";
 
 
 function Nav() {
